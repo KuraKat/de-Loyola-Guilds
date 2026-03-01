@@ -1,0 +1,126 @@
+/* Theme variables + hero background images extracted from inline styles */
+
+/* When a club page is active, we temporarily apply its theme class to <body>
+   so the sidebar/topbar also pick up matching colors. */
+body.theme-cw,
+body.theme-knights,
+body.theme-rcy,
+body.theme-drawing,
+body.theme-band {
+  --sidebar-bg: var(--dark-card);
+  --main-bg: var(--dark-bg);
+  --text-dark: var(--dark-text);
+  --text-muted: var(--dark-muted);
+  --border-color: var(--dark-border);
+  --primary-blue: var(--accent-blue);
+  --logo-color: var(--dark-text);
+}
+
+body.theme-cw .nav-item:hover,
+body.theme-knights .nav-item:hover,
+body.theme-rcy .nav-item:hover,
+body.theme-drawing .nav-item:hover,
+body.theme-band .nav-item:hover {
+  background-color: var(--dark-card-hover);
+  color: var(--dark-text);
+}
+
+body.theme-cw .fav-item:hover,
+body.theme-knights .fav-item:hover,
+body.theme-rcy .fav-item:hover,
+body.theme-drawing .fav-item:hover,
+body.theme-band .fav-item:hover {
+  background-color: var(--dark-card-hover);
+  color: var(--dark-text);
+}
+
+body.theme-cw .badge,
+body.theme-knights .badge,
+body.theme-rcy .badge,
+body.theme-drawing .badge,
+body.theme-band .badge {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: var(--dark-text);
+}
+
+.theme-cw {
+  --dark-bg: #1d1633;
+  --dark-card: #2a1b44;
+  --dark-card-hover: #352055;
+  --dark-border: #5b3a8a;
+  --accent-blue: #67e8f9;
+  --accent-color: #c4b5fd;
+  --dark-text: #f5f3ff;
+  --dark-muted: #d8b4fe;
+  --btn-text: #0b1120;
+}
+.hero-cw {
+  background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80");
+}
+
+.theme-knights {
+  --dark-bg: #06141f;
+  --dark-card: #0b2531;
+  --dark-card-hover: #103546;
+  --dark-border: #d7a64a;
+  --accent-blue: #d7a64a;
+  --accent-color: #f59e0b;
+  --dark-text: #f8fafc;
+  --dark-muted: #9fb3c8;
+  --btn-text: #0b1120;
+}
+.hero-knights {
+  background-image: url("https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&q=80");
+}
+
+.theme-rcy {
+  --dark-bg: #2b0a0a;
+  --dark-card: #3b0d0d;
+  --dark-card-hover: #4a1111;
+  --dark-border: #2563eb;
+  --accent-blue: #2563eb;
+  --accent-color: #ef4444;
+  --dark-text: #fff7ed;
+  --dark-muted: #fecaca;
+  --btn-text: #ffffff;
+}
+.hero-rcy {
+  background-image: url("https://images.unsplash.com/photo-1584515933487-779824d29309?w=1200&q=80");
+}
+.theme-rcy .club-hero-title { color: #ffffff; }
+.theme-rcy .club-hero-motto { color: #f1f5f9; }
+
+.theme-drawing {
+  --dark-bg: #e5e7eb;
+  --dark-card: #f3f4f6;
+  --dark-card-hover: #ffffff;
+  --dark-border: #2563eb;
+  --accent-blue: #eab308;
+  --accent-color: #2563eb;
+  --dark-text: #1f2937;
+  --dark-muted: #4b5563;
+  --btn-text: #000000;
+}
+.hero-drawing {
+  background-image: url("https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=1200&q=80");
+}
+
+.theme-band {
+  --dark-bg: #0b1b3a;
+  --dark-card: #102a56;
+  --dark-card-hover: #163a72;
+  --dark-border: #6da3ff;
+  --accent-blue: #7aa7ff;
+  --accent-color: #cfe3ff;
+  --dark-text: #f8fafc;
+  --dark-muted: #b8c7e6;
+  --btn-text: #0b1120;
+}
+.hero-band {
+  background-image: url("https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=1200&q=80");
+}
+
+/* ------------------------------------------------------------------ */
+/* Additional placeholder clubs                                         */
+/* ------------------------------------------------------------------ */
+/* (placeholder club themes removed per requirements) */
